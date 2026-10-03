@@ -1,0 +1,27 @@
+{
+  "_fv": 85,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smoking",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:ArmOre"
+      }
+    ],
+    "cookingBookCategory": "FOOD",
+    "xpReward": 1.0,
+    "cookingTime": 100,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smokingInputStack": {
+      "value": "CUSTOM:ArmOre"
+    },
+    "smokingReturnStack": {
+      "value": "CUSTOM:CookedArm"
+    },
+    "name": "cooking_arm",
+    "namespace": "mod"
+  }
+}

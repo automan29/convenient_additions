@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "name": "default",
+      "map": {
+        "0": "grey_colour",
+        "1": "lamp"
+      }
+    }
+  }
+}

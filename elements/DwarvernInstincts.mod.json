@@ -1,0 +1,38 @@
+{
+  "_fv": 85,
+  "_type": "enchantment",
+  "definition": {
+    "name": "Dwarvern Instincts",
+    "supportedSlots": "any",
+    "weight": 6,
+    "anvilCost": 4,
+    "maxLevel": 3,
+    "damageModifier": 0,
+    "incompatibleEnchantments": [
+      {
+        "value": "SILK_TOUCH"
+      }
+    ],
+    "supportedItems": [
+      {
+        "value": "CUSTOM:StoneDrill"
+      },
+      {
+        "value": "Items.DIAMOND_PICKAXE"
+      },
+      {
+        "value": "Items.GOLDEN_PICKAXE"
+      },
+      {
+        "value": "Items.IRON_PICKAXE"
+      },
+      {
+        "value": "Items.NETHERITE_PICKAXE"
+      }
+    ],
+    "isTreasureEnchantment": false,
+    "isCurse": false,
+    "canGenerateInLootTables": true,
+    "canVillagerTrade": true
+  }
+}

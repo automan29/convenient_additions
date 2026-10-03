@@ -1,0 +1,170 @@
+{
+  "_fv": 85,
+  "_type": "block",
+  "definition": {
+    "texture": "arm_ore_block_img",
+    "textureTop": "",
+    "textureLeft": "",
+    "textureFront": "",
+    "textureRight": "",
+    "textureBack": "",
+    "renderType": 10,
+    "customModelName": "Normal",
+    "rotationMode": 0,
+    "enablePitch": false,
+    "emissiveRendering": false,
+    "displayFluidOverlay": false,
+    "states": [],
+    "animations": [],
+    "itemTexture": "",
+    "particleTexture": "",
+    "blockSetType": "OAK",
+    "leavesParticleChance": 0.0,
+    "tintType": "No tint",
+    "isItemTinted": false,
+    "hasTransparency": false,
+    "connectedSides": false,
+    "transparencyType": "SOLID",
+    "disableOffset": false,
+    "boundingBoxes": [
+      {
+        "mx": 0.0,
+        "my": 0.0,
+        "mz": 0.0,
+        "Mx": 16.0,
+        "My": 16.0,
+        "Mz": 16.0,
+        "subtract": false
+      }
+    ],
+    "customProperties": [],
+    "name": "Arm Ore Block",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "hardness": 3.5,
+    "resistance": 10.0,
+    "hasGravity": true,
+    "isWaterloggable": false,
+    "hasBlockItem": true,
+    "maxStackSize": 64,
+    "rarity": "COMMON",
+    "immuneToFire": false,
+    "creativeTabs": [],
+    "destroyTool": "pickaxe",
+    "customDrop": {
+      "value": "CUSTOM:ArmOre"
+    },
+    "dropAmount": 1,
+    "xpAmountMin": 0,
+    "xpAmountMax": 0,
+    "useLootTableForDrops": false,
+    "requiresCorrectTool": true,
+    "enchantPowerBonus": 0.0,
+    "plantsGrowOn": false,
+    "canRedstoneConnect": false,
+    "hasCustomOpacity": false,
+    "lightOpacity": 15,
+    "tickRate": 0,
+    "tickRandomly": false,
+    "isReplaceable": false,
+    "canProvidePower": false,
+    "emittedRedstonePower": {
+      "fixedValue": 15.0
+    },
+    "colorOnMap": "DEFAULT",
+    "noteBlockInstrument": "skeleton",
+    "creativePickItem": {
+      "value": ""
+    },
+    "offsetType": "NONE",
+    "aiPathNodeType": "DEFAULT",
+    "beaconColorModifier": {
+      "value": -4026,
+      "falpha": 0.0
+    },
+    "strippingResult": {
+      "value": ""
+    },
+    "ignitedByLava": false,
+    "flammability": 0,
+    "fireSpreadSpeed": 0,
+    "isLadder": false,
+    "slipperiness": 0.6,
+    "speedFactor": 1.0,
+    "jumpFactor": 1.0,
+    "reactionToPushing": "NORMAL",
+    "isNotColidable": false,
+    "isCustomSoundType": true,
+    "soundOnStep": {
+      "value": "GROUND"
+    },
+    "breakSound": {
+      "value": "entity.parrot.imitate.zombie_villager"
+    },
+    "fallSound": {
+      "value": "CUSTOM:arm_ore_fall"
+    },
+    "hitSound": {
+      "value": "block.stone.hit"
+    },
+    "placeSound": {
+      "value": "CUSTOM:arm_ore_fall"
+    },
+    "stepSound": {
+      "value": "block.stone.step"
+    },
+    "luminance": {
+      "fixedValue": 0.0
+    },
+    "unbreakable": false,
+    "vanillaToolTier": "IRON",
+    "isBonemealable": false,
+    "sensitiveToVibration": false,
+    "vibrationalEvents": [],
+    "vibrationSensitivityRadius": {
+      "fixedValue": 7.0
+    },
+    "hasInventory": false,
+    "openGUIOnRightClick": false,
+    "inventorySize": 9,
+    "inventoryStackSize": 99,
+    "inventoryDropWhenDestroyed": true,
+    "inventoryComparatorPower": true,
+    "inventoryOutSlotIDs": [],
+    "inventoryInSlotIDs": [],
+    "hasEnergyStorage": false,
+    "energyInitial": 0,
+    "energyCapacity": 400000,
+    "energyMaxReceive": 200,
+    "energyMaxExtract": 200,
+    "isFluidTank": false,
+    "fluidCapacity": 8000,
+    "fluidRestrictions": [],
+    "generateFeature": true,
+    "restrictionBiomes": [
+      {
+        "value": "river"
+      },
+      {
+        "value": "frozen_river"
+      }
+    ],
+    "blocksToReplace": [
+      {
+        "value": "Blocks.WATER"
+      },
+      {
+        "value": "Blocks.COPPER_ORE"
+      },
+      {
+        "value": "Blocks.STONE#0"
+      }
+    ],
+    "generationShape": "UNIFORM",
+    "frequencyPerChunks": 9,
+    "frequencyOnChunk": 4,
+    "minGenerateHeight": 14,
+    "maxGenerateHeight": 48
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "_fv": 85,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "bark_to_log",
+    "unlockingItems": [
+      {
+        "value": "TAG:mod:material/bark"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:PaleBark"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:PaleBark"
+      },
+      {
+        "value": "Blocks.STRIPPED_PALE_OAK_LOG"
+      },
+      {
+        "value": "CUSTOM:PaleBark"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:PaleBark"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "Blocks.PALE_OAK_LOG"
+    },
+    "name": "pale_rebark",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "_fv": 85,
+  "_type": "villagerprofession",
+  "definition": {
+    "displayName": "Locksmith",
+    "pointOfInterest": {
+      "value": "CUSTOM:TheLockBlock"
+    },
+    "actionSound": {
+      "value": "entity.villager.work_armorer"
+    },
+    "hat": "None",
+    "professionTextureFile": "realistic-villager.png",
+    "zombifiedProfessionTextureFile": "realistic-villager-zombi.png"
+  }
+}

@@ -1,0 +1,177 @@
+{
+  "_fv": 85,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 174,
+    "height": 176,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 5,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 0,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 232,
+          "y": 73,
+          "locked": false
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 1,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "onTakenFromSlot": {
+            "name": "SawmillTakeOutput"
+          },
+          "onStackTransfer": {
+            "name": "SawmillShiftClickOutput"
+          },
+          "x": 274,
+          "y": 73,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_inventory",
+          "text": {
+            "fixedValue": "Inventory"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 133,
+          "y": 114,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_sawmill",
+          "text": {
+            "fixedValue": "Sawmill"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 133,
+          "y": 37,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "sawmill_arrow.png",
+          "use1Xscale": false,
+          "x": 252,
+          "y": 74,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_default",
+          "text": "Default",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "SawmillSetDefault"
+          },
+          "width": 61,
+          "height": 20,
+          "x": 133,
+          "y": 47,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_cut",
+          "text": "Cut",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "SawmillSetCut"
+          },
+          "width": 40,
+          "height": 20,
+          "x": 133,
+          "y": 68,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_split",
+          "text": "Split",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "SawmillSetSplit"
+          },
+          "width": 51,
+          "height": 20,
+          "x": 133,
+          "y": 89,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_do",
+          "text": "Do",
+          "isUndecorated": true,
+          "onClick": {
+            "name": "SawmillSetDo"
+          },
+          "displayCondition": {
+            "name": "PremiumSawmillCheck"
+          },
+          "width": 35,
+          "height": 20,
+          "x": 3,
+          "y": 191,
+          "locked": false
+        }
+      }
+    ],
+    "onTick": {
+      "name": "SawmillCrafting"
+    },
+    "onClosed": {
+      "name": "SawmillGUIThisGUIIsClosed"
+    },
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

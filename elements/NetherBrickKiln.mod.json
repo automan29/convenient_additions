@@ -1,0 +1,33 @@
+{
+  "_fv": 85,
+  "_type": "structure",
+  "definition": {
+    "structure": "netherbrickkiln",
+    "projection": "rigid",
+    "ignoredBlocks": [
+      {
+        "value": "Blocks.STRUCTURE_BLOCK"
+      }
+    ],
+    "spacing": 25,
+    "separation": 20,
+    "restrictionBiomes": [
+      {
+        "value": "nether"
+      },
+      {
+        "value": "basalt_deltas"
+      }
+    ],
+    "terrainAdaptation": "beard_thin",
+    "generationStep": "SURFACE_STRUCTURES",
+    "surfaceDetectionType": "WORLD_SURFACE_WG",
+    "useStartHeight": true,
+    "startHeightProviderType": "UNIFORM",
+    "startHeightMin": 40,
+    "startHeightMax": 105,
+    "size": 1,
+    "maxDistanceFromCenter": 64,
+    "jigsawPools": []
+  }
+}

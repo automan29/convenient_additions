@@ -1,0 +1,2772 @@
+{
+  "mod_elements": [
+    {
+      "name": "GRS1600",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grs_1600",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/convenient_additions/items/grs_1600.json",
+          "src/main/resources/assets/convenient_additions/models/item/grs_1600.json",
+          "src/main/java/automandza/convenientadditions/item/GRS1600Item.java"
+        ]
+      },
+      "path": "~/secrecy"
+    },
+    {
+      "name": "GRS1600Rightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grs_1600_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/automandza/convenientadditions/procedures/GRS1600RightclickedProcedure.java"
+        ]
+      },
+      "path": "~/secrecy"
+    },
+    {
+      "name": "PenguinHornParticle",
+      "type": "particle",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "penguin_horn_particle",
+      "metadata": {
+        "files": [
+          "src/main/java/automandza/convenientadditions/client/particle/PenguinHornParticleParticle.java",
+          "src/main/resources/assets/convenient_additions/particles/penguin_horn_particle.json"
+        ]
+      },
+      "path": "~/secrecy"
+    },
+    {
+      "name": "Betterloot1",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "betterloot_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/convenient_additions/loot_table/chests/betterloot_1.json"
+        ]
+      },
+      "path": "~/loot tables"
+    },
+    {
+      "name": "Abandonedmineshaft",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abandonedmineshaft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_table/chests/abandoned_mineshaft.json"
+        ]
+      },
+      "path": "~/loot tables"
+    },
+    {
+      "name": "Locksmith",
+      "type": "villagerprofession",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "locksmith",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/locksmith"
+    },
+    {
+      "name": "Key",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golden_key",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/convenient_additions/models/item/golden_key.json",
+          "src/main/java/automandza/convenientadditions/item/KeyItem.java",
+          "src/main/resources/assets/convenient_additions/items/golden_key.json"
+        ]
+      },
+      "path": "~/locksmith"
+    },
+    {
+      "name": "LockedDoor",
+      "type": "block",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "locked_door",
+      "metadata": {
+        "files": [
+          "src/main/java/automandza/convenientadditions/block/entity/LockedDoorBlockEntity.java",
+          "src/main/resources/assets/convenient_additions/models/block/locked_door_top_right.json",
+          "src/main/resources/assets/convenient_additions/models/block/locked_door_bottom_right.json",
+          "src/main/resources/assets/convenient_additions/models/block/locked_door_top_left_open.json",
+          "src/main/java/automandza/convenientadditions/block/LockedDoorBlock.java",
+          "src/main/resources/assets/convenient_additions/models/block/locked_door_bottom_left_open.json",
+          "src/main/resources/assets/convenient_additions/models/item/locked_door.json",
+          "src/main/resources/assets/convenient_additions/models/block/locked_door_top_left.json",
+          "src/main/resources/assets/convenient_additions/blockstates/locked_door.json",
+          "src/main/resources/assets/convenient_additions/models/block/locked_door_bottom_right_open.json",
+          "src/main/resources/assets/convenient_additions/models/block/locked_door_bottom_left.json",
+          "src/main/resources/assets/convenient_additions/models/block/locked_door_top_right_open.json",
+          "src/main/resources/data/convenient_additions/loot_table/blocks/locked_door.json",
+          "src/main/resources/assets/convenient_additions/items/locked_door.json"
+        ]
+      },
+      "path": "~/locksmith"
+    },
+    {
+      "name": "LockedDoorOnBlockRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "locked_door_on_block_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/automandza/convenientadditions/procedures/LockedDoorOnBlockRightclickedProcedure.java"
+        ]
+      },
+      "path": "~/locksmith"
+    },
+    {
+      "name": "GoldenKeyCraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golden_key_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/convenient_additions/recipe/golden_key_craft.json",
+          "src/main/resources/data/convenient_additions/advancement/recipes/golden_key_craft.json"
+        ]
+      },
+      "path": "~/locksmith"
+    },
+    {
+      "name": "Locktrades",
+      "type": "villagertrade",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "locktrades",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/locksmith"
+    },
+    {
+      "name": "TheLockBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_lock_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/convenient_additions/items/the_lock_block.json",
+          "src/main/java/automandza/convenientadditions/block/TheLockBlockBlock.java",
+          "src/main/resources/data/convenient_additions/loot_table/blocks/the_lock_block.json",
+          "src/main/resources/assets/convenient_additions/blockstates/the_lock_block.json",
+          "src/main/resources/assets/convenient_additions/models/item/the_lock_block.json",
+          "src/main/resources/assets/convenient_additions/models/block/the_lock_block.json"
+        ]
+      },
+      "path": "~/locksmith"
+    },
+    {
+      "name": "OakBark",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oak_bark",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/convenient_additions/items/oak_bark.json",
+          "src/main/java/automandza/convenientadditions/item/OakBarkItem.java",
+          "src/main/resources/assets/convenient_additions/models/item/oak_bark.json"
+        ]
+      },
+      "path": "~/Bark/bark type spam"
+    },
+    {
+      "name": "GiveOakBark",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "give_oak_bark",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/automandza/convenientadditions/procedures/GiveOakBarkProcedure.java"
+        ],
+        "return_type": "logic"
+      },
+      "path": "~/Bark"
+    },
+    {
+      "name": "OakRebark",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oak_rebark",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/convenient_additions/advancement/recipes/oak_rebark.json",
+          "src/main/resources/data/convenient_additions/recipe/oak_rebark.json"
+        ]
+      },
+      "path": "~/Bark/bark type spam"
+    },
+    {
+      "name": "SpruceBark",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spruce_bark",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/convenient_additions/models/item/spruce_bark.json",
+          "src/main/java/automandza/convenientadditions/item/SpruceBarkItem.java",
+          "src/main/resources/assets/convenient_additions/items/spruce_bark.json"
+        ]
+      },
+      "path": "~/Bark/bark type spam"
+    },
+    {
+      "name": "BirchBark",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "birch_bark",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/convenient_additions/models/item/birch_bark.json",
+          "src/main/java/automandza/convenientadditions/item/BirchBarkItem.java",
+          "src/main/resources/assets/convenient_additions/items/birch_bark.json"
+        ]
+      },
+      "path": "~/Bark/bark type spam"
+    },
+    {
+      "name": "SpruceRebark",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spruce_rebark",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/convenient_additions/advancement/recipes/spruce_rebark.json",
+          "src/main/resources/data/convenient_additions/recipe/spruce_rebark.json"
+        ]
+      },
+      "path": "~/Bark/bark type spam"
+    },
+    {
+      "name": "BirchRebark",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "birch_rebark",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/convenient_additions/recipe/birch_rebark.json",
+          "src/main/resources/data/convenient_additions/advancement/recipes/birch_rebark.json"
+        ]
+      },
+      "path": "~/Bark/bark type spam"
+    },
+    {
+      "name": "LockedDoorIgnoreRedstone",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "locked_door_ignore_redstone",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/automandza/convenientadditions/procedures/LockedDoorIgnoreRedstoneProcedure.java"
+        ]
+      },
+      "path": "~/locksmith"
+    },
+    {
+      "name": "DarkoakBark",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkoak_bark",
+      "metadata": {
+        "files": [
+          "src/main/java/automandza/convenientadditions/item/DarkoakBarkItem.java",
+          "src/main/resources/assets/convenient_additions/items/darkoak_bark.json",
+          "src/main/resources/assets/convenient_additions/models/item/darkoak_bark.json"
+        ]
+      },
+      "path": "~/Bark/bark type spam"
+    },
+    {
+      "name": "DarkoakRebark",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkoak_rebark",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/convenient_additions/advancement/recipes/darkoak_rebark.json",
+          "src/main/resources/data/convenient_additions/recipe/darkoak_rebark.json"
+        ]
+      },
+      "path": "~/Bark/bark type spam"
+    },
+    {
+      "name": "WoddenVest",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wodden_vest",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/convenient_additions/items/wodden_vest_leggings.json",
+          "src/main/resources/assets/convenient_additions/models/item/wodden_vest_leggings.json",
+          "src/main/resources/assets/convenient_additions/equipment/wodden_vest.json",
+          "src/main/java/automandza/convenientadditions/item/WoddenVestItem.java",
+          "src/main/resources/assets/convenient_additions/items/wodden_vest_helmet.json",
+          "src/main/java/automandza/convenientadditions/client/renderer/item/WoddenVestArmor.java",
+          "src/main/resources/assets/convenient_additions/items/wodden_vest_boots.json",
+          "src/main/resources/assets/convenient_additions/models/item/wodden_vest_chestplate.json",
+          "src/main/resources/assets/convenient_additions/items/wodden_vest_chestplate.json"
+        ]
+      },
+      "path": "~/Bark/armour"
+    },
+    {
+      "name": "WoodenVestRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wooden_vest_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/convenient_additions/advancement/recipes/wooden_vest_recipe.json",
+          "src/main/resources/data/convenient_additions/recipe/wooden_vest_recipe.json"
+        ]
+      },
+      "path": "~/Bark/armour"
+    },
+    {
+      "name": "WoodenPaddingRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wooden_padding_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/convenient_additions/recipe/wooden_padding_recipe.json",
+          "src/main/resources/data/convenient_additions/advancement/recipes/wooden_padding_recipe.json"
+        ]
+      },
+      "path": "~/Bark/armour"
+    },
+    {
+      "name": "AcaciaBark",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "acacia_bark",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/convenient_additions/items/acacia_bark.json",
+          "src/main/resources/assets/convenient_additions/models/item/acacia_bark.json",
+          "src/main/java/automandza/convenientadditions/item/AcaciaBarkItem.java"
+        ]
+      },
+      "path": "~/Bark/bark type spam"
+    },
+    {
+      "name": "AcaciaRebark",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "acacia_rebark",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/convenient_additions/advancement/recipes/acacia_rebark.json",
+          "src/main/resources/data/convenient_additions/recipe/acacia_rebark.json"
+        ]
+      },
+      "path": "~/Bark/bark type spam"
+    },
+    {
+      "name": "JungleBark",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jungle_bark",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/convenient_additions/models/item/jungle_bark.json",
+          "src/main/java/automandza/convenientadditions/item/JungleBarkItem.java",
+          "src/main/resources/assets/convenient_additions/items/jungle_bark.json"
+        ]
+      },
+      "path": "~/Bark/bark type spam"
+    },
+    {
+      "name": "JungleRebark",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jungle_rebark",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/convenient_additions/advancement/recipes/jungle_rebark.json",
+          "src/main/resources/data/convenient_additions/recipe/jungle_rebark.json"
+        ]
+      },
+      "path": "~/Bark/bark type spam"
+    },
+    {
+      "name": "CherryBark",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cherry_bark",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/convenient_additions/models/item/cherry_bark.json",
+          "src/main/java/automandza/convenientadditions/item/CherryBarkItem.java",
+          "src/main/resources/assets/convenient_additions/items/cherry_bark.json"
+        ]
+      },
+      "path": "~/Bark/bark type spam"
+    },
+    {
+      "name": "CherryRebark",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cherry_rebark",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/convenient_additions/recipe/cherry_rebark.json",
+          "src/main/resources/data/convenient_additions/advancement/recipes/cherry_rebark.json"
+        ]
+      },
+      "path": "~/Bark/bark type spam"
+    },
+    {
+      "name": "Strongholdcorridor",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strongholdcorridor",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_table/chests/stronghold_corridor.json"
+        ]
+      },
+      "path": "~/loot tables"
+    },
+    {
+      "name": "Strongholdcrossing",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strongholdcrossing",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_table/chests/stronghold_crossing.json"
+        ]
+      },
+      "path": "~/loot tables"
+    },
+    {
+      "name": "Strongholdlibrary",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strongholdlibrary",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_table/chests/stronghold_library.json"
+        ]
+      },
+      "path": "~/loot tables"
+    },
+    {
+      "name": "LockedDoorRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "locked_door_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/convenient_additions/recipe/locked_door_recipe.json",
+          "src/main/resources/data/convenient_additions/advancement/recipes/locked_door_recipe.json"
+        ]
+      },
+      "path": "~/locksmith"
+    },
+    {
+      "name": "LockBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lock_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/convenient_additions/recipe/lock_block_recipe.json",
+          "src/main/resources/data/convenient_additions/advancement/recipes/lock_block_recipe.json"
+        ]
+      },
+      "path": "~/locksmith"
+    },
+    {
+      "name": "PaleBark",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pale_bark",
+      "metadata": {
+        "files": [
+          "src/main/java/automandza/convenientadditions/item/PaleBarkItem.java",
+          "src/main/resources/assets/convenient_additions/items/pale_bark.json",
+          "src/main/resources/assets/convenient_additions/models/item/pale_bark.json"
+        ]
+      },
+      "path": "~/Bark/bark type spam"
+    },
+    {
+      "name": "PaleRebark",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pale_rebark",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/convenient_additions/recipe/pale_rebark.json",
+          "src/main/resources/data/convenient_additions/advancement/recipes/pale_rebark.json"
+        ]
+      },
+      "path": "~/Bark/bark type spam"
+    },
+    {
+      "name": "Sawmill",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sawmill",
+      "metadata": {
+        "files": [
+          "src/main/java/automandza/convenientadditions/block/entity/SawmillBlockEntity.java",
+          "src/main/resources/assets/convenient_additions/items/sawmill.json",
+          "src/main/resources/assets/convenient_additions/models/block/sawmill.json",
+          "src/main/resources/assets/convenient_additions/blockstates/sawmill.json",
+          "src/main/java/automandza/convenientadditions/block/SawmillBlock.java",
+          "src/main/resources/data/convenient_additions/loot_table/blocks/sawmill.json",
+          "src/main/resources/assets/convenient_additions/models/item/sawmill.json"
+        ]
+      },
+      "path": "~/Sawmill"
+    },
+    {
+      "name": "SawmillGUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sawmill_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/automandza/convenientadditions/network/SawmillGUIButtonMessage.java",
+          "src/main/java/automandza/convenientadditions/client/gui/SawmillGUIScreen.java",
+          "src/main/java/automandza/convenientadditions/world/inventory/SawmillGUIMenu.java",
+          "src/main/java/automandza/convenientadditions/network/SawmillGUISlotMessage.java"
+        ]
+      },
+      "path": "~/Sawmill"
+    },
+    {
+      "name": "SawmillCrafting",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "sawmill_crafting",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/automandza/convenientadditions/procedures/SawmillCraftingProcedure.java"
+        ]
+      },
+      "path": "~/Sawmill"
+    },
+    {
+      "name": "SawmillTakeOutput",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "sawmill_take_output",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "amount",
+            "type": "number"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/automandza/convenientadditions/procedures/SawmillTakeOutputProcedure.java"
+        ]
+      },
+      "path": "~/Sawmill"
+    },
+    {
+      "name": "SawmillRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sawmill_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/convenient_additions/recipe/sawmill_recipe.json",
+          "src/main/resources/data/convenient_additions/advancement/recipes/sawmill_recipe.json"
+        ]
+      },
+      "path": "~/Sawmill"
+    },
+    {
+      "name": "ArmOreBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arm_ore_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/convenient_additions/worldgen/configured_feature/arm_ore_block.json",
+          "src/main/java/automandza/convenientadditions/block/ArmOreBlockBlock.java",
+          "src/main/resources/assets/convenient_additions/items/arm_ore_block.json",
+          "src/main/resources/data/convenient_additions/worldgen/placed_feature/arm_ore_block.json",
+          "src/main/resources/data/convenient_additions/loot_table/blocks/arm_ore_block.json",
+          "src/main/resources/data/convenient_additions/neoforge/biome_modifier/arm_ore_block_biome_modifier.json",
+          "src/main/resources/assets/convenient_additions/blockstates/arm_ore_block.json",
+          "src/main/resources/assets/convenient_additions/models/block/arm_ore_block.json",
+          "src/main/resources/assets/convenient_additions/models/item/arm_ore_block.json"
+        ]
+      },
+      "path": "~/secrecy"
+    },
+    {
+      "name": "ArmOre",
+      "type": "item",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "arm_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/convenient_additions/items/arm_ore.json",
+          "src/main/resources/assets/convenient_additions/models/item/arm_ore.json",
+          "src/main/java/automandza/convenientadditions/item/ArmOreItem.java"
+        ]
+      },
+      "path": "~/secrecy"
+    },
+    {
+      "name": "CookedArm",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cooked_arm",
+      "metadata": {
+        "files": [
+          "src/main/java/automandza/convenientadditions/item/CookedArmItem.java",
+          "src/main/resources/assets/convenient_additions/items/cooked_arm.json",
+          "src/main/resources/assets/convenient_additions/models/item/cooked_arm.json"
+        ]
+      },
+      "path": "~/secrecy"
+    },
+    {
+      "name": "CookingArm",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cooking_arm",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/convenient_additions/recipe/cooking_arm.json",
+          "src/main/resources/data/convenient_additions/advancement/recipes/cooking_arm.json"
+        ]
+      },
+      "path": "~/secrecy"
+    },
+    {
+      "name": "MangroveBark",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mangrove_bark",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/convenient_additions/models/item/mangrove_bark.json",
+          "src/main/resources/assets/convenient_additions/items/mangrove_bark.json",
+          "src/main/java/automandza/convenientadditions/item/MangroveBarkItem.java"
+        ]
+      },
+      "path": "~/Bark/bark type spam"
+    },
+    {
+      "name": "MangroveRebark",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mangrove_rebark",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/convenient_additions/advancement/recipes/mangrove_rebark.json",
+          "src/main/resources/data/convenient_additions/recipe/mangrove_rebark.json"
+        ]
+      },
+      "path": "~/Bark/bark type spam"
+    },
+    {
+      "name": "LegoGuy",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lego_guy",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/convenient_additions/models/item/lego_guy.json",
+          "src/main/resources/assets/convenient_additions/items/lego_guy.json",
+          "src/main/java/automandza/convenientadditions/item/LegoGuyItem.java"
+        ]
+      },
+      "path": "~/secrecy"
+    },
+    {
+      "name": "LegoGuyRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lego_guy_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/convenient_additions/advancement/recipes/lego_guy_recipe.json",
+          "src/main/resources/data/convenient_additions/recipe/lego_guy_recipe.json"
+        ]
+      },
+      "path": "~/secrecy"
+    },
+    {
+      "name": "SawmillWoodFind",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "sawmill_wood_find",
+      "metadata": {
+        "dependencies": [],
+        "files": [
+          "src/main/java/automandza/convenientadditions/procedures/SawmillWoodFindProcedure.java"
+        ]
+      },
+      "path": "~/Sawmill"
+    },
+    {
+      "name": "SawmillGUIThisGUIIsClosed",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sawmill_gui_this_gui_is_closed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/automandza/convenientadditions/procedures/SawmillGUIThisGUIIsClosedProcedure.java"
+        ]
+      },
+      "path": "~/Sawmill"
+    },
+    {
+      "name": "SawmillSetDefault",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sawmill_set_default",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/automandza/convenientadditions/procedures/SawmillSetDefaultProcedure.java"
+        ]
+      },
+      "path": "~/Sawmill"
+    },
+    {
+      "name": "SawmillSetCut",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sawmill_set_cut",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/automandza/convenientadditions/procedures/SawmillSetCutProcedure.java"
+        ]
+      },
+      "path": "~/Sawmill"
+    },
+    {
+      "name": "SawmillSetSplit",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sawmill_set_split",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/automandza/convenientadditions/procedures/SawmillSetSplitProcedure.java"
+        ]
+      },
+      "path": "~/Sawmill"
+    },
+    {
+      "name": "SawmillSetDo",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sawmill_set_do",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/automandza/convenientadditions/procedures/SawmillSetDoProcedure.java"
+        ]
+      },
+      "path": "~/secrecy"
+    },
+    {
+      "name": "PremiumSawmillCheck",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "premium_sawmill_check",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/automandza/convenientadditions/procedures/PremiumSawmillCheckProcedure.java"
+        ]
+      },
+      "path": "~/secrecy"
+    },
+    {
+      "name": "SawmillShiftClickOutput",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "sawmill_shift_click_output",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "amount",
+            "type": "number"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/automandza/convenientadditions/procedures/SawmillShiftClickOutputProcedure.java"
+        ]
+      },
+      "path": "~/Sawmill"
+    },
+    {
+      "name": "CrudeDoorChanceToDrop",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crude_door_chance_to_drop",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/automandza/convenientadditions/procedures/CrudeDoorChanceToDropProcedure.java"
+        ]
+      },
+      "path": "~/locksmith"
+    },
+    {
+      "name": "CrudeDoor",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crude_door",
+      "metadata": {
+        "files": [
+          "src/main/java/automandza/convenientadditions/block/CrudeDoorBlock.java",
+          "src/main/resources/data/convenient_additions/loot_table/blocks/crude_door.json",
+          "src/main/resources/assets/convenient_additions/models/item/crude_door.json",
+          "src/main/resources/assets/convenient_additions/blockstates/crude_door.json",
+          "src/main/resources/assets/convenient_additions/models/block/crude_door_bottom_left.json",
+          "src/main/resources/assets/convenient_additions/models/block/crude_door_top_right.json",
+          "src/main/resources/assets/convenient_additions/items/crude_door.json",
+          "src/main/resources/assets/convenient_additions/models/block/crude_door_bottom_right_open.json",
+          "src/main/resources/assets/convenient_additions/models/block/crude_door_top_left_open.json",
+          "src/main/resources/assets/convenient_additions/models/block/crude_door_top_right_open.json",
+          "src/main/resources/assets/convenient_additions/models/block/crude_door_bottom_left_open.json",
+          "src/main/resources/assets/convenient_additions/models/block/crude_door_top_left.json",
+          "src/main/resources/assets/convenient_additions/models/block/crude_door_bottom_right.json"
+        ]
+      },
+      "path": "~/locksmith"
+    },
+    {
+      "name": "CrudeDoorRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crude_door_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/convenient_additions/advancement/recipes/crude_door_recipe.json",
+          "src/main/resources/data/convenient_additions/recipe/crude_door_recipe.json"
+        ]
+      },
+      "path": "~/locksmith"
+    },
+    {
+      "name": "PlainsRockMed",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plains_rock_med",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/convenient_additions/worldgen/configured_feature/plains_rock_med.json",
+          "src/main/resources/data/convenient_additions/worldgen/placed_feature/plains_rock_med.json",
+          "src/main/resources/data/convenient_additions/neoforge/biome_modifier/plains_rock_med_biome_modifier.json"
+        ]
+      },
+      "path": "~/Structures"
+    },
+    {
+      "name": "LegoMinikit",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lego_minikit",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/convenient_additions/advancement/lego_minikit.json"
+        ]
+      },
+      "path": "~/secrecy"
+    },
+    {
+      "name": "FlameCharge",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flame_charge",
+      "metadata": {
+        "files": [
+          "src/main/java/automandza/convenientadditions/item/FlameChargeItem.java",
+          "src/main/resources/assets/convenient_additions/items/flame_charge.json",
+          "src/main/resources/assets/convenient_additions/models/item/flame_charge.json"
+        ]
+      },
+      "path": "~/secrecy"
+    },
+    {
+      "name": "StandingOnSawmill",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "standing_on_sawmill",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/automandza/convenientadditions/procedures/StandingOnSawmillProcedure.java"
+        ]
+      },
+      "path": "~/Sawmill"
+    },
+    {
+      "name": "FlameChargeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flame_charge_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/convenient_additions/advancement/recipes/flame_charge_recipe.json",
+          "src/main/resources/data/convenient_additions/recipe/flame_charge_recipe.json"
+        ]
+      },
+      "path": "~/secrecy"
+    },
+    {
+      "name": "ThrowFlameCharge",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "throw_flame_charge",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ],
+        "files": [
+          "src/main/java/automandza/convenientadditions/procedures/ThrowFlameChargeProcedure.java"
+        ]
+      },
+      "path": "~/secrecy"
+    },
+    {
+      "name": "StoneDrill",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "stone_drill",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/convenient_additions/items/stone_drill.json",
+          "src/main/java/automandza/convenientadditions/item/StoneDrillItem.java",
+          "src/main/resources/assets/convenient_additions/models/item/stone_drill.json"
+        ]
+      },
+      "path": "~/Drill"
+    },
+    {
+      "name": "DrillShowFuelUI",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "drill_show_fuel_ui",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/automandza/convenientadditions/procedures/DrillShowFuelUIProcedure.java"
+        ]
+      },
+      "path": "~/Drill"
+    },
+    {
+      "name": "DrillOverlay",
+      "type": "overlay",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "drill_overlay",
+      "metadata": {
+        "files": [
+          "src/main/java/automandza/convenientadditions/client/screens/DrillOverlayOverlay.java"
+        ]
+      },
+      "path": "~/Drill"
+    },
+    {
+      "name": "Infusion",
+      "type": "enchantment",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infusion",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/convenient_additions/enchantment/infusion.json"
+        ]
+      },
+      "path": "~/Drill"
+    },
+    {
+      "name": "DrillHead",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drill_head",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/convenient_additions/items/drill_head.json",
+          "src/main/resources/assets/convenient_additions/models/item/drill_head.json",
+          "src/main/java/automandza/convenientadditions/item/DrillHeadItem.java"
+        ]
+      },
+      "path": "~/Drill"
+    },
+    {
+      "name": "DrillRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drill_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/convenient_additions/recipe/drill_recipe.json",
+          "src/main/resources/data/convenient_additions/advancement/recipes/drill_recipe.json"
+        ]
+      },
+      "path": "~/Drill"
+    },
+    {
+      "name": "DrillHeadRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drill_head_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/convenient_additions/advancement/recipes/drill_head_recipe.json",
+          "src/main/resources/data/convenient_additions/recipe/drill_head_recipe.json"
+        ]
+      },
+      "path": "~/Drill"
+    },
+    {
+      "name": "Simpledungeon",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "simpledungeon",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_table/chests/simple_dungeon.json"
+        ]
+      },
+      "path": "~/loot tables"
+    },
+    {
+      "name": "DwarvernInstincts",
+      "type": "enchantment",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dwarvern_instincts",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/convenient_additions/enchantment/dwarvern_instincts.json"
+        ]
+      },
+      "path": "~/Drill"
+    },
+    {
+      "name": "Pencil",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pencil",
+      "metadata": {
+        "files": [
+          "src/main/java/automandza/convenientadditions/item/PencilItem.java",
+          "src/main/resources/assets/convenient_additions/items/pencil.json",
+          "src/main/resources/assets/convenient_additions/models/item/pencil.json"
+        ]
+      },
+      "path": "~/secrecy"
+    },
+    {
+      "name": "PencilRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pencil_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/convenient_additions/recipe/pencil_recipe.json"
+        ]
+      },
+      "path": "~/secrecy"
+    },
+    {
+      "name": "ToggleDrillSFXLogic",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "toggle_drill_sfx_logic",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/automandza/convenientadditions/procedures/ToggleDrillSFXLogicProcedure.java"
+        ]
+      },
+      "path": "~/Drill"
+    },
+    {
+      "name": "ToggleDrillSound",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "toggle_drill_sound",
+      "metadata": {
+        "files": [
+          "src/main/java/automandza/convenientadditions/command/ToggleDrillSoundCommand.java"
+        ]
+      },
+      "path": "~/Drill"
+    },
+    {
+      "name": "Disctest",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "disctest",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/convenient_additions/jukebox_song/disctest.json",
+          "src/main/resources/assets/convenient_additions/models/item/disctest.json",
+          "src/main/resources/assets/convenient_additions/items/disctest.json",
+          "src/main/java/automandza/convenientadditions/item/DisctestItem.java"
+        ]
+      },
+      "path": "~/secrecy"
+    },
+    {
+      "name": "MarbleRubble",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "marble_rubble",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/convenient_additions/models/block/marble_rubble.json",
+          "src/main/resources/assets/convenient_additions/blockstates/marble_rubble.json",
+          "src/main/java/automandza/convenientadditions/block/MarbleRubbleBlock.java",
+          "src/main/resources/assets/convenient_additions/models/item/marble_rubble.json",
+          "src/main/resources/data/convenient_additions/loot_table/blocks/marble_rubble.json",
+          "src/main/resources/assets/convenient_additions/items/marble_rubble.json"
+        ]
+      },
+      "path": "~/Building Blocks"
+    },
+    {
+      "name": "RegularPearl",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "regular_pearl",
+      "metadata": {
+        "files": [
+          "src/main/java/automandza/convenientadditions/item/RegularPearlItem.java",
+          "src/main/resources/assets/convenient_additions/models/item/regular_pearl.json",
+          "src/main/resources/assets/convenient_additions/items/regular_pearl.json"
+        ]
+      },
+      "path": "~/Structures"
+    },
+    {
+      "name": "CeilingLamp",
+      "type": "block",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "ceiling_lamp",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/convenient_additions/models/item/ceiling_lamp.json",
+          "src/main/resources/assets/convenient_additions/blockstates/ceiling_lamp.json",
+          "src/main/resources/assets/convenient_additions/items/ceiling_lamp.json",
+          "src/main/resources/assets/convenient_additions/models/block/ceiling_lamp.json",
+          "src/main/resources/data/convenient_additions/loot_table/blocks/ceiling_lamp.json",
+          "src/main/java/automandza/convenientadditions/block/CeilingLampBlock.java"
+        ]
+      },
+      "path": "~/Building Blocks"
+    },
+    {
+      "name": "AwMan",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aw_man",
+      "metadata": {
+        "files": [
+          "src/main/java/automandza/convenientadditions/command/AwManCommand.java"
+        ]
+      },
+      "path": "~/secrecy"
+    },
+    {
+      "name": "AwManProcedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aw_man_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/automandza/convenientadditions/procedures/AwManProcedureProcedure.java"
+        ]
+      },
+      "path": "~/secrecy"
+    },
+    {
+      "name": "DecorationStation",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "decoration_station",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/convenient_additions/loot_table/blocks/decoration_station.json",
+          "src/main/resources/assets/convenient_additions/models/item/decoration_station.json",
+          "src/main/resources/assets/convenient_additions/models/block/decoration_station.json",
+          "src/main/java/automandza/convenientadditions/block/entity/DecorationStationBlockEntity.java",
+          "src/main/resources/assets/convenient_additions/blockstates/decoration_station.json",
+          "src/main/resources/assets/convenient_additions/items/decoration_station.json",
+          "src/main/java/automandza/convenientadditions/block/DecorationStationBlock.java"
+        ]
+      },
+      "path": "~/Building Blocks"
+    },
+    {
+      "name": "DecorationStationGUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "decoration_station_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/automandza/convenientadditions/network/DecorationStationGUIButtonMessage.java",
+          "src/main/java/automandza/convenientadditions/world/inventory/DecorationStationGUIMenu.java",
+          "src/main/java/automandza/convenientadditions/client/gui/DecorationStationGUIScreen.java"
+        ]
+      },
+      "path": "~/Building Blocks"
+    },
+    {
+      "name": "AddLightsProcedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "add_lights_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/automandza/convenientadditions/procedures/AddLightsProcedureProcedure.java"
+        ]
+      },
+      "path": "~/Building Blocks"
+    },
+    {
+      "name": "CeilingLampRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "ceiling_lamp_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/automandza/convenientadditions/procedures/CeilingLampRightclickedProcedure.java"
+        ]
+      },
+      "path": "~/Building Blocks"
+    },
+    {
+      "name": "DecorationStationRedstoneOn",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "decoration_station_redstone_on",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/automandza/convenientadditions/procedures/DecorationStationRedstoneOnProcedure.java"
+        ]
+      },
+      "path": "~/Building Blocks"
+    },
+    {
+      "name": "CeilingLampLuminance",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "ceiling_lamp_luminance",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          }
+        ],
+        "return_type": "number",
+        "files": [
+          "src/main/java/automandza/convenientadditions/procedures/CeilingLampLuminanceProcedure.java"
+        ]
+      },
+      "path": "~/Building Blocks"
+    },
+    {
+      "name": "DecorationStationRedstoneOff",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "decoration_station_redstone_off",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/automandza/convenientadditions/procedures/DecorationStationRedstoneOffProcedure.java"
+        ]
+      },
+      "path": "~/Building Blocks"
+    },
+    {
+      "name": "DoneLightsProcedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "done_lights_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/automandza/convenientadditions/procedures/DoneLightsProcedureProcedure.java"
+        ]
+      },
+      "path": "~/Building Blocks"
+    },
+    {
+      "name": "CeilingLampRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ceiling_lamp_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/convenient_additions/advancement/recipes/ceiling_lamp_recipe.json",
+          "src/main/resources/data/convenient_additions/recipe/ceiling_lamp_recipe.json"
+        ]
+      },
+      "path": "~/Building Blocks"
+    },
+    {
+      "name": "DecorationStationRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "decoration_station_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/convenient_additions/recipe/decoration_station_recipe.json",
+          "src/main/resources/data/convenient_additions/advancement/recipes/decoration_station_recipe.json"
+        ]
+      },
+      "path": "~/Building Blocks"
+    },
+    {
+      "name": "Palehighendhome",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "palehighendhome",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/convenient_additions/worldgen/template_pool/palehighendhome_upper.json",
+          "src/main/resources/data/convenient_additions/worldgen/template_pool/palehighendhome.json",
+          "src/main/resources/data/convenient_additions/worldgen/structure/palehighendhome.json",
+          "src/main/resources/data/convenient_additions/worldgen/template_pool/palehighendhome_entrance.json",
+          "src/main/resources/data/convenient_additions/worldgen/structure_set/palehighendhome.json"
+        ]
+      },
+      "path": "~/Structures"
+    },
+    {
+      "name": "DwarvernInstinctsPickaxe",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "dwarvern_instincts_pickaxe",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/automandza/convenientadditions/procedures/DwarvernInstinctsPickaxeProcedure.java"
+        ]
+      },
+      "path": "~/Drill"
+    },
+    {
+      "name": "QuartzPearlTombstone",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quartz_pearl_tombstone",
+      "metadata": {
+        "files": [
+          "src/main/java/automandza/convenientadditions/block/QuartzPearlTombstoneBlock.java",
+          "src/main/resources/assets/convenient_additions/blockstates/quartz_pearl_tombstone.json",
+          "src/main/resources/assets/convenient_additions/items/quartz_pearl_tombstone.json",
+          "src/main/resources/data/convenient_additions/loot_table/blocks/quartz_pearl_tombstone.json",
+          "src/main/resources/assets/convenient_additions/models/block/quartz_pearl_tombstone.json",
+          "src/main/resources/assets/convenient_additions/models/item/quartz_pearl_tombstone.json"
+        ]
+      },
+      "path": "~/Structures"
+    },
+    {
+      "name": "TombstoneRightClick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "tombstone_right_click",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/automandza/convenientadditions/procedures/TombstoneRightClickProcedure.java"
+        ]
+      },
+      "path": "~/Structures"
+    },
+    {
+      "name": "QuartzGrave",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quartz_grave",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/convenient_additions/worldgen/structure_set/quartz_grave.json",
+          "src/main/resources/data/convenient_additions/worldgen/template_pool/quartz_grave.json",
+          "src/main/resources/data/convenient_additions/worldgen/structure/quartz_grave.json"
+        ]
+      },
+      "path": "~/Structures"
+    },
+    {
+      "name": "KilnGUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "kiln_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/automandza/convenientadditions/client/gui/KilnGUIScreen.java",
+          "src/main/java/automandza/convenientadditions/world/inventory/KilnGUIMenu.java"
+        ]
+      },
+      "path": "~/Kiln"
+    },
+    {
+      "name": "Kiln",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kiln",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/convenient_additions/blockstates/kiln.json",
+          "src/main/resources/assets/convenient_additions/models/item/kiln.json",
+          "src/main/java/automandza/convenientadditions/block/entity/KilnBlockEntity.java",
+          "src/main/resources/data/convenient_additions/loot_table/blocks/kiln.json",
+          "src/main/resources/assets/convenient_additions/models/block/kiln.json",
+          "src/main/java/automandza/convenientadditions/block/KilnBlock.java",
+          "src/main/resources/assets/convenient_additions/items/kiln.json"
+        ]
+      },
+      "path": "~/Kiln"
+    },
+    {
+      "name": "KilnTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "kiln_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/automandza/convenientadditions/procedures/KilnTickProcedure.java"
+        ]
+      },
+      "path": "~/Kiln"
+    },
+    {
+      "name": "KilnRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kiln_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/convenient_additions/advancement/recipes/kiln_recipe.json",
+          "src/main/resources/data/convenient_additions/recipe/kiln_recipe.json"
+        ]
+      },
+      "path": "~/Kiln"
+    },
+    {
+      "name": "GlobalPutItemIntoFacingInput",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "global_put_item_into_facing_input",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "direction",
+            "type": "direction"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "takeSlot",
+            "type": "number"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/automandza/convenientadditions/procedures/GlobalPutItemIntoFacingInputProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "NetherBrickKiln",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_brick_kiln",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/convenient_additions/worldgen/structure/nether_brick_kiln.json",
+          "src/main/resources/data/convenient_additions/worldgen/template_pool/nether_brick_kiln.json",
+          "src/main/resources/data/convenient_additions/worldgen/structure_set/nether_brick_kiln.json"
+        ]
+      },
+      "path": "~/Kiln"
+    },
+    {
+      "name": "EnchantingScienceResearchDifficulty",
+      "type": "gamerule",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enchanting_science_research_difficulty",
+      "metadata": {
+        "type": "number",
+        "files": []
+      },
+      "path": "~/Enchanting pfft more like SCIENCE"
+    },
+    {
+      "name": "EnchScienceResearchTable",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ench_science_research_table",
+      "metadata": {
+        "files": [
+          "src/main/java/automandza/convenientadditions/block/EnchScienceResearchTableBlock.java",
+          "src/main/resources/assets/convenient_additions/models/block/ench_science_research_table.json",
+          "src/main/resources/assets/convenient_additions/models/item/ench_science_research_table.json",
+          "src/main/resources/data/convenient_additions/loot_table/blocks/ench_science_research_table.json",
+          "src/main/resources/assets/convenient_additions/blockstates/ench_science_research_table.json",
+          "src/main/java/automandza/convenientadditions/block/entity/EnchScienceResearchTableBlockEntity.java",
+          "src/main/resources/assets/convenient_additions/items/ench_science_research_table.json"
+        ]
+      },
+      "path": "~/Enchanting pfft more like SCIENCE"
+    },
+    {
+      "name": "EnchResearchGUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "ench_research_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/automandza/convenientadditions/client/gui/EnchResearchGUIScreen.java",
+          "src/main/java/automandza/convenientadditions/network/EnchResearchGUIButtonMessage.java",
+          "src/main/java/automandza/convenientadditions/world/inventory/EnchResearchGUIMenu.java"
+        ]
+      },
+      "path": "~/Enchanting pfft more like SCIENCE"
+    },
+    {
+      "name": "EnchResearchTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "ench_research_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/automandza/convenientadditions/procedures/EnchResearchTickProcedure.java"
+        ]
+      },
+      "path": "~/Enchanting pfft more like SCIENCE"
+    },
+    {
+      "name": "ResetUnlockedEnchantments",
+      "type": "command",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "reset_unlocked_enchantments",
+      "metadata": {
+        "files": [
+          "src/main/java/automandza/convenientadditions/command/ResetUnlockedEnchantmentsCommand.java"
+        ]
+      },
+      "path": "~/Enchanting pfft more like SCIENCE"
+    },
+    {
+      "name": "ResetUnlockedEnchts",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reset_unlocked_enchts",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/automandza/convenientadditions/procedures/ResetUnlockedEnchtsProcedure.java"
+        ]
+      },
+      "path": "~/Enchanting pfft more like SCIENCE"
+    },
+    {
+      "name": "MaterialsToEnchantmentMachine",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "materials_to_enchantment_machine",
+      "metadata": {
+        "files": [
+          "src/main/java/automandza/convenientadditions/block/MaterialsToEnchantmentMachineBlock.java",
+          "src/main/resources/assets/convenient_additions/models/block/materials_to_enchantment_machine.json",
+          "src/main/java/automandza/convenientadditions/client/renderer/block/MaterialsToEnchantmentMachineRenderer.java",
+          "src/main/resources/assets/convenient_additions/blockstates/materials_to_enchantment_machine.json",
+          "src/main/resources/assets/convenient_additions/items/materials_to_enchantment_machine.json",
+          "src/main/resources/assets/convenient_additions/models/item/materials_to_enchantment_machine.json",
+          "src/main/resources/data/convenient_additions/loot_table/blocks/materials_to_enchantment_machine.json",
+          "src/main/java/automandza/convenientadditions/block/entity/MaterialsToEnchantmentMachineBlockEntity.java"
+        ]
+      },
+      "path": "~/Enchanting pfft more like SCIENCE"
+    },
+    {
+      "name": "EnchWMatsGUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ench_w_mats_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/automandza/convenientadditions/client/gui/EnchWMatsGUIScreen.java",
+          "src/main/java/automandza/convenientadditions/network/EnchWMatsGUISlotMessage.java",
+          "src/main/java/automandza/convenientadditions/world/inventory/EnchWMatsGUIMenu.java"
+        ]
+      },
+      "path": "~/Enchanting pfft more like SCIENCE"
+    },
+    {
+      "name": "EnchResearchTableRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ench_research_table_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/convenient_additions/advancement/recipes/ench_research_table_recipe.json",
+          "src/main/resources/data/convenient_additions/recipe/ench_research_table_recipe.json"
+        ]
+      },
+      "path": "~/Enchanting pfft more like SCIENCE"
+    },
+    {
+      "name": "EnchWMatsOpenTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "ench_w_mats_open_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/automandza/convenientadditions/procedures/EnchWMatsOpenTickProcedure.java"
+        ]
+      },
+      "path": "~/Enchanting pfft more like SCIENCE"
+    },
+    {
+      "name": "EnchWMatsTakeOutput",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "ench_w_mats_take_output",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/automandza/convenientadditions/procedures/EnchWMatsTakeOutputProcedure.java"
+        ]
+      },
+      "path": "~/Enchanting pfft more like SCIENCE"
+    },
+    {
+      "name": "EnhancementMachineRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enhancement_machine_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/convenient_additions/recipe/enhancement_machine_recipe.json",
+          "src/main/resources/data/convenient_additions/advancement/recipes/enhancement_machine_recipe.json"
+        ]
+      },
+      "path": "~/Enchanting pfft more like SCIENCE"
+    },
+    {
+      "name": "FireExtinguisher",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_extinguisher",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/convenient_additions/models/item/fire_extinguisher.json",
+          "src/main/resources/assets/convenient_additions/items/fire_extinguisher.json",
+          "src/main/java/automandza/convenientadditions/item/FireExtinguisherItem.java"
+        ]
+      },
+      "path": "~/Fire Extinguisher"
+    },
+    {
+      "name": "PutOutFires",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "put_out_fires",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/automandza/convenientadditions/procedures/PutOutFiresProcedure.java"
+        ]
+      },
+      "path": "~/Fire Extinguisher"
+    },
+    {
+      "name": "FireExtinguisherRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_extinguisher_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/convenient_additions/advancement/recipes/fire_extinguisher_recipe.json",
+          "src/main/resources/data/convenient_additions/recipe/fire_extinguisher_recipe.json"
+        ]
+      },
+      "path": "~/Fire Extinguisher"
+    },
+    {
+      "name": "PlayerTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "player_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/automandza/convenientadditions/procedures/PlayerTickProcedure.java"
+        ]
+      },
+      "path": "~/secrecy"
+    },
+    {
+      "name": "UnlockedEnchTipsGUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "unlocked_ench_tips_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/automandza/convenientadditions/client/gui/UnlockedEnchTipsGUIScreen.java",
+          "src/main/java/automandza/convenientadditions/world/inventory/UnlockedEnchTipsGUIMenu.java"
+        ]
+      },
+      "path": "~/Enchanting pfft more like SCIENCE"
+    },
+    {
+      "name": "Doer2",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "doer_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/convenient_additions/advancement/doer_2.json"
+        ]
+      },
+      "path": "~/Sawmill"
+    },
+    {
+      "name": "Testsafs",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "testsafs",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/automandza/convenientadditions/procedures/TestsafsProcedure.java"
+        ]
+      },
+      "path": "~/Sawmill"
+    },
+    {
+      "name": "ZombieCraig",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "zombie_craig",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/automandza/convenientadditions/procedures/ZombieCraigProcedure.java"
+        ]
+      },
+      "path": "~/SpawningRules"
+    },
+    {
+      "name": "SnowCreeper",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "snow_creeper",
+      "metadata": {
+        "files": [
+          "src/main/java/automandza/convenientadditions/entity/SnowCreeperEntity.java",
+          "src/main/resources/assets/convenient_additions/items/snow_creeper_spawn_egg.json",
+          "src/main/java/automandza/convenientadditions/client/renderer/SnowCreeperRenderer.java",
+          "src/main/resources/assets/convenient_additions/models/item/snow_creeper_spawn_egg.json"
+        ]
+      },
+      "path": "~/Mobs"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "arm_ore_fall",
+      "files": [
+        "a_man_has_fallen_into_the_river_short"
+      ],
+      "category": "block",
+      "subtitle": ""
+    },
+    {
+      "name": "dwarf_activate",
+      "files": [
+        "diggydiggyholeintro"
+      ],
+      "category": "player",
+      "subtitle": "Diggy Diggy Hole!"
+    },
+    {
+      "name": "drill_startup",
+      "files": [
+        "drillsoundeffects-002"
+      ],
+      "category": "player",
+      "subtitle": ""
+    },
+    {
+      "name": "drill_use",
+      "files": [
+        "drillusesfx"
+      ],
+      "category": "player",
+      "subtitle": ""
+    },
+    {
+      "name": "drill_idle",
+      "files": [
+        "drillidlesfx"
+      ],
+      "category": "player",
+      "subtitle": ""
+    },
+    {
+      "name": "lil_tune_tiny_rume",
+      "files": [
+        "liltunetinyroom"
+      ],
+      "category": "record",
+      "subtitle": ""
+    }
+  ],
+  "tag_elements": {
+    "ITEMS:minecraft:piglin_loved": [
+      "~CUSTOM:GRS1600"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:Kiln",
+      "~CUSTOM:MarbleRubble",
+      "~CUSTOM:ArmOreBlock"
+    ],
+    "BLOCKS:minecraft:mineable/axe": [
+      "~CUSTOM:EnchScienceResearchTable",
+      "~CUSTOM:CrudeDoor",
+      "~CUSTOM:Sawmill",
+      "~CUSTOM:TheLockBlock"
+    ],
+    "ITEMS:mod:material/bark": [
+      "CUSTOM:OakBark",
+      "CUSTOM:SpruceBark",
+      "CUSTOM:BirchBark",
+      "CUSTOM:DarkoakBark",
+      "CUSTOM:AcaciaBark",
+      "CUSTOM:JungleBark",
+      "CUSTOM:CherryBark",
+      "CUSTOM:PaleBark",
+      "CUSTOM:MangroveBark"
+    ],
+    "ITEMS:minecraft:chest_armor": [
+      "~CUSTOM:WoddenVest.body"
+    ],
+    "ITEMS:minecraft:leg_armor": [
+      "~CUSTOM:WoddenVest.legs"
+    ],
+    "ITEMS:convenient_additions:wodden_vest_repair_items": [
+      "~TAG:mod:material/bark"
+    ],
+    "BLOCKS:minecraft:needs_iron_tool": [
+      "~CUSTOM:ArmOreBlock"
+    ],
+    "ITEMS:convenient_additions:arm_ore_repair_items": [
+      "CUSTOM:ArmOre"
+    ],
+    "ITEMS:minecraft:meat": [
+      "~CUSTOM:CookedArm"
+    ],
+    "BLOCKS:minecraft:wooden_doors": [
+      "~CUSTOM:CrudeDoor"
+    ],
+    "ENCHANTMENTS:minecraft:on_random_loot": [
+      "~CUSTOM:DwarvernInstincts"
+    ],
+    "ENCHANTMENTS:minecraft:non_treasure": [
+      "~CUSTOM:DwarvernInstincts",
+      "~CUSTOM:Infusion"
+    ],
+    "ENCHANTMENTS:minecraft:tradeable": [
+      "~CUSTOM:DwarvernInstincts"
+    ],
+    "ITEMS:minecraft:music_discs": [
+      "~CUSTOM:Disctest"
+    ],
+    "ITEMS:c:nether_planks": [
+      "Blocks.WARPED_PLANKS",
+      "Blocks.CRIMSON_PLANKS"
+    ],
+    "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:FireExtinguisher"
+    ],
+    "ITEMS:convenient_additions:fire_extinguisher_repair_items": [
+      "~Items.COAL#1"
+    ]
+  },
+  "tab_element_order": {
+    "TOOLS": [
+      "Key",
+      "StoneDrill",
+      "FireExtinguisher"
+    ],
+    "MATERIALS": [
+      "OakBark",
+      "SpruceBark",
+      "DarkoakBark",
+      "BirchBark",
+      "AcaciaBark",
+      "JungleBark",
+      "CherryBark",
+      "PaleBark",
+      "MangroveBark",
+      "DrillHead",
+      "RegularPearl"
+    ]
+  },
+  "language_map": {
+    "en_us": {
+      "item.convenient_additions.grs_1600": "GRS 1600",
+      "entity.villager.convenient_additions.locksmith": "Locksmith",
+      "item.convenient_additions.golden_key": "Key",
+      "item.convenient_additions.locked_door": "Locked Door",
+      "item.convenient_additions.the_lock_block": "The Lock Block",
+      "item.convenient_additions.oak_bark": "Oak Bark",
+      "item.convenient_additions.spruce_bark": "Spruce Bark",
+      "item.convenient_additions.birch_bark": "Birch Bark",
+      "item.convenient_additions.darkoak_bark": "Dark Oak Bark",
+      "item.convenient_additions.wodden_vest_chestplate": "Wooden Vest",
+      "item.convenient_additions.wodden_vest_leggings": "Wooden Padding",
+      "item.convenient_additions.acacia_bark": "Acacia Bark",
+      "item.convenient_additions.jungle_bark": "Jungle Bark",
+      "item.convenient_additions.cherry_bark": "Cherry Bark",
+      "item.convenient_additions.pale_bark": "Pale Bark",
+      "item.convenient_additions.sawmill": "Sawmill",
+      "gui.convenient_additions.sawmill_gui.label_sawmill": "Sawmill",
+      "gui.convenient_additions.sawmill_gui.label_inventory": "Inventory",
+      "subtitles.arm_ore_fall": "",
+      "item.convenient_additions.arm_ore_block": "Arm Ore Block",
+      "item.convenient_additions.arm_ore": "Arm Ore",
+      "item.convenient_additions.cooked_arm": "Cooked Arm",
+      "item.convenient_additions.mangrove_bark": "Mangrove Bark",
+      "item.convenient_additions.lego_guy": "Lego Guy",
+      "gui.convenient_additions.sawmill_gui.button_default": "Default",
+      "gui.convenient_additions.sawmill_gui.button_split": "Split",
+      "gui.convenient_additions.sawmill_gui.button_cut": "Cut",
+      "gui.convenient_additions.sawmill_gui.button_do": "Do",
+      "item.convenient_additions.crude_door": "Crude Door",
+      "advancements.lego_minikit.title": "Minikit Collected",
+      "advancements.lego_minikit.descr": "1 / 16",
+      "item.convenient_additions.flame_charge": "Flame Charge",
+      "item.convenient_additions.stone_drill": "Scree Fabricator Drill",
+      "enchantment.convenient_additions.infusion": "Infusion",
+      "gui.convenient_additions.drill_overlay.label_075": "0/75",
+      "item.convenient_additions.drill_head": "Drill Head",
+      "enchantment.convenient_additions.dwarvern_instincts": "Dwarvern Instincts",
+      "subtitles.dwarf_activate": "Diggy Diggy Hole!",
+      "item.convenient_additions.pencil": "Pencil",
+      "item.convenient_additions.pencil.description_0": "Granite? Graphite? Lead? ... Same thing really",
+      "subtitles.drill_startup": "",
+      "subtitles.drill_idle": "",
+      "subtitles.drill_use": "",
+      "subtitles.lil_tune_tiny_rume": "",
+      "item.convenient_additions.disctest": "Music Disc",
+      "item.convenient_additions.disctest.desc": "Broseph - LilTuneTinyRume",
+      "item.convenient_additions.marble_rubble": "Rubble",
+      "item.convenient_additions.regular_pearl": "Regular Pearl",
+      "item.convenient_additions.ceiling_lamp": "Ceiling Lamp",
+      "item.convenient_additions.decoration_station": "Decoration Station",
+      "gui.convenient_additions.decoration_station_gui.button_add_lights": "Set Lights",
+      "gui.convenient_additions.decoration_station_gui.button_done": "Done",
+      "item.convenient_additions.quartz_pearl_tombstone": "Quartz Pearl Tombstone",
+      "gui.convenient_additions.kiln_gui.label_kiln": "Auto Kiln",
+      "gui.convenient_additions.kiln_gui.label_inventory": "Inventory",
+      "item.convenient_additions.kiln": "Auto Kiln",
+      "gui.convenient_additions.kiln_gui.tooltip_place_over_heat_source": "Place over a heat source to heat up",
+      "gamerule.enchantingScienceResearchDifficulty.description": "Modifies the cost of researching enchantments (default 2, higher values \u003d harder)",
+      "gamerule.enchantingScienceResearchDifficulty": "Enchanting Scientific Research Difficulty",
+      "item.convenient_additions.ench_science_research_table": "Scientific Research Table",
+      "gui.convenient_additions.ench_research_gui.label_scientific_research": "For Scientific Research ONLY",
+      "gui.convenient_additions.ench_research_gui.label_inventory": "Inventory",
+      "block.convenient_additions.ench_science_research_table.description_0": "There is no such thing as \u0027Magic\u0027, only Science we don\u0027t yet understand!",
+      "gui.convenient_additions.ench_research_gui.button_research": "Research",
+      "gui.convenient_additions.ench_research_gui.label_xp_cost_0": "XP Cost: 0",
+      "gui.convenient_additions.ench_research_gui.label_extracted_enchant": "Extracted Enchant",
+      "item.convenient_additions.materials_to_enchantment_machine": "Item Enhancement Machine",
+      "item.convenient_additions.fire_extinguisher": "Fire Extinguisher",
+      "gui.convenient_additions.ench_w_mats_gui.label_inventory": "Inventory",
+      "advancements.doer_2.descr": "You have done again!",
+      "advancements.doer_2.title": "Doer 2",
+      "entity.convenient_additions.snow_creeper": "Snow Creeper",
+      "item.convenient_additions.snow_creeper_spawn_egg": "Snow Creeper Spawn Egg"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/automandza/convenientadditions/network/MenuStateUpdateMessage.java",
+      "src/main/java/automandza/convenientadditions/init/ConvenientAdditionsModScreens.java",
+      "src/main/java/automandza/convenientadditions/init/ConvenientAdditionsModMenus.java",
+      "src/main/java/automandza/convenientadditions/init/ConvenientAdditionsModGameRules.java",
+      "src/main/java/automandza/convenientadditions/init/ConvenientAdditionsModParticleTypes.java",
+      "src/main/java/automandza/convenientadditions/init/ConvenientAdditionsModParticles.java",
+      "src/main/java/automandza/convenientadditions/init/ConvenientAdditionsModVillagerProfessions.java",
+      "src/main/resources/data/minecraft/tags/point_of_interest_type/acquirable_job_site.json",
+      "src/main/java/automandza/convenientadditions/init/ConvenientAdditionsModTrades.java",
+      "src/main/java/automandza/convenientadditions/init/ConvenientAdditionsModBlocks.java",
+      "src/main/java/automandza/convenientadditions/init/ConvenientAdditionsModBlockEntities.java",
+      "src/main/java/automandza/convenientadditions/init/ConvenientAdditionsModItems.java",
+      "src/main/java/automandza/convenientadditions/init/ConvenientAdditionsModEntityRenderers.java",
+      "src/main/java/automandza/convenientadditions/init/ConvenientAdditionsModEntities.java",
+      "src/main/java/automandza/convenientadditions/init/ConvenientAdditionsModTabs.java",
+      "src/main/java/automandza/convenientadditions/ConvenientAdditionsMod.java",
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/automandza/convenientadditions/init/ConvenientAdditionsModModels.java",
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/resources/META-INF/accesstransformer.cfg",
+      "src/main/java/automandza/convenientadditions/init/ConvenientAdditionsModSounds.java",
+      "src/main/resources/assets/convenient_additions/sounds.json"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "loot tables",
+        "children": []
+      },
+      {
+        "name": "secrecy",
+        "children": []
+      },
+      {
+        "name": "locksmith",
+        "children": []
+      },
+      {
+        "name": "Bark",
+        "children": [
+          {
+            "name": "armour",
+            "children": []
+          },
+          {
+            "name": "bark type spam",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Sawmill",
+        "children": []
+      },
+      {
+        "name": "Drill",
+        "children": []
+      },
+      {
+        "name": "Building Blocks",
+        "children": []
+      },
+      {
+        "name": "Structures",
+        "children": []
+      },
+      {
+        "name": "Kiln",
+        "children": []
+      },
+      {
+        "name": "Enchanting pfft more like SCIENCE",
+        "children": []
+      },
+      {
+        "name": "Fire Extinguisher",
+        "children": []
+      },
+      {
+        "name": "SpawningRules",
+        "children": []
+      },
+      {
+        "name": "Mobs",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "convenient_additions",
+    "modName": "Convenient Additions",
+    "version": "1.0.0",
+    "author": "MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.8",
+    "modElementsPackage": "automandza.convenientadditions"
+  },
+  "mcreatorVersion": 202600114619
+}

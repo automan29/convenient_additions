@@ -1,0 +1,14 @@
+{
+  "mappings": {
+    "default": {
+      "name": "default",
+      "map": {
+        "side": "sawmill_side",
+        "top": "sawmill_top",
+        "connector": "grey_colour",
+        "under": "minecraft:barrel_bottom",
+        "blade": "sawmill_saw"
+      }
+    }
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "_fv": 85,
+  "_type": "overlay",
+  "definition": {
+    "priority": "NORMAL",
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "drillfuelbarbgimg.png",
+          "use1Xscale": false,
+          "anchorPoint": "CENTER",
+          "x": 409,
+          "y": 2,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "drillfuelbarimg.png",
+          "use1Xscale": false,
+          "anchorPoint": "CENTER",
+          "x": 409,
+          "y": 2,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "drillfuelbarforegroundimg.png",
+          "use1Xscale": false,
+          "anchorPoint": "CENTER",
+          "x": 409,
+          "y": 2,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_075",
+          "text": {
+            "fixedValue": "0/75"
+          },
+          "color": {
+            "value": -2658268,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "anchorPoint": "TOP_RIGHT",
+          "x": 380,
+          "y": 13,
+          "locked": false
+        }
+      }
+    ],
+    "baseTexture": "",
+    "overlayTarget": "Ingame",
+    "displayCondition": {
+      "name": "DrillShowFuelUI"
+    },
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "_fv": 85,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      {
+        "value": "Items.NETHERITE_INGOT"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.NETHERITE_INGOT"
+      },
+      {
+        "value": "Blocks.DOUBLE_PLANT#0"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.DRIED_KELP"
+      },
+      {
+        "value": "Items.DRIED_KELP"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:DrillHead"
+    },
+    "name": "drill_head_recipe",
+    "namespace": "mod"
+  }
+}

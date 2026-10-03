@@ -1,0 +1,53 @@
+{
+  "_fv": 85,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "bark_to_log",
+    "unlockingItems": [
+      {
+        "value": "TAG:mod:material/bark"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:MangroveBark"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:MangroveBark"
+      },
+      {
+        "value": "Blocks.STRIPPED_MANGROVE_LOG"
+      },
+      {
+        "value": "CUSTOM:MangroveBark"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:MangroveBark"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "Blocks.MANGROVE_LOG"
+    },
+    "name": "mangrove_rebark",
+    "namespace": "mod"
+  }
+}

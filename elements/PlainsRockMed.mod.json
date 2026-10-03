@@ -1,0 +1,32 @@
+{
+  "_fv": 85,
+  "_type": "feature",
+  "definition": {
+    "skipPlacement": false,
+    "generationStep": "LOCAL_MODIFICATIONS",
+    "restrictionBiomes": [
+      {
+        "value": "plains"
+      },
+      {
+        "value": "savanna"
+      },
+      {
+        "value": "meadow"
+      },
+      {
+        "value": "mutated_savanna"
+      },
+      {
+        "value": "jungle_edge"
+      },
+      {
+        "value": "extreme_hills_with_trees"
+      },
+      {
+        "value": "forest"
+      }
+    ],
+    "featurexml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"feature_container\" deletable=\"false\" x=\"40\" y=\"40\"><value name=\"feature\"><block type=\"feature_block_pile\"><value name=\"block\"><block type=\"blockstate_selector\"><mutation xmlns=\"http://www.w3.org/1999/xhtml\" inputs=\"0\"></mutation><field name=\"block\">Blocks.STONE#1</field></block></value></block></value><next><block type=\"placement_rarity\"><field name=\"rarity\">3</field><next><block type=\"placement_in_square\"><next><block type=\"placement_height_uniform\"><value name=\"min\"><block type=\"vertical_anchor_absolute\"><field name=\"value\">57</field></block></value><value name=\"max\"><block type=\"vertical_anchor_absolute\"><field name=\"value\">110</field></block></value><next><block type=\"placement_block_predicate_filter\"><value name=\"condition\"><block type=\"block_predicate_all_of\"><mutation xmlns=\"http://www.w3.org/1999/xhtml\" inputs=\"2\"></mutation><value name=\"condition0\"><block type=\"block_predicate_matching_blocks\"><field name=\"x\">0</field><field name=\"y\">-2</field><field name=\"z\">0</field><value name=\"blockSet\"><block type=\"block_holderset_list\"><mutation xmlns=\"http://www.w3.org/1999/xhtml\" inputs=\"3\"></mutation><field name=\"block0\">Blocks.GRASS</field><field name=\"block1\">Blocks.DIRT#0</field><field name=\"block2\">Blocks.DIRT#2</field></block></value></block></value><value name=\"condition1\"><block type=\"block_predicate_is_air\"></block></value></block></value></block></next></block></next></block></next></block></next></block></xml>"
+  }
+}

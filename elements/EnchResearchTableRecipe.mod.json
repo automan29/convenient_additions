@@ -1,0 +1,56 @@
+{
+  "_fv": 85,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      {
+        "value": "Items.AMETHYST_SHARD"
+      },
+      {
+        "value": "TAG:c:nether_planks"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "TAG:c:nether_planks"
+      },
+      {
+        "value": "TAG:c:nether_planks"
+      },
+      {
+        "value": "TAG:c:nether_planks"
+      },
+      {
+        "value": "Items.AMETHYST_SHARD"
+      },
+      {
+        "value": "Items.IRON_INGOT"
+      },
+      {
+        "value": "Items.AMETHYST_SHARD"
+      },
+      {
+        "value": "TAG:c:nether_planks"
+      },
+      {
+        "value": "TAG:c:nether_planks"
+      },
+      {
+        "value": "TAG:c:nether_planks"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:EnchScienceResearchTable"
+    },
+    "name": "ench_research_table_recipe",
+    "namespace": "mod"
+  }
+}

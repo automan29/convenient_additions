@@ -1,0 +1,12 @@
+{
+  "_fv": 85,
+  "_type": "gamerule",
+  "definition": {
+    "type": "Number",
+    "displayName": "Enchanting Scientific Research Difficulty",
+    "description": "Modifies the cost of researching enchantments (default 2, higher values = harder)",
+    "category": "MISC",
+    "defaultValueLogic": false,
+    "defaultValueNumber": 2
+  }
+}

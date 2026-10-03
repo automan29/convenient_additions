@@ -1,0 +1,54 @@
+{
+  "_fv": 85,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "button",
+        "data": {
+          "name": "button_add_lights",
+          "text": "Set Lights",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "AddLightsProcedure"
+          },
+          "width": 75,
+          "height": 20,
+          "x": 136,
+          "y": 65,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_done",
+          "text": "Done",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "DoneLightsProcedure"
+          },
+          "width": 45,
+          "height": 20,
+          "x": 248,
+          "y": 65,
+          "locked": false
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}
