@@ -20,8 +20,19 @@
         },
         {
           "type": "minecraft:item",
+          "name": "minecraft:book",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": "#minecraft:on_random_loot"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
           "name": "minecraft:music_disc_otherside",
-          "weight": 6,
+          "weight": 2,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -126,8 +137,8 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 3,
-                "max": 7
+                "min": 2,
+                "max": 6
               }
             }
           ]
@@ -141,7 +152,7 @@
               "function": "minecraft:set_count",
               "count": {
                 "min": 4,
-                "max": 6
+                "max": 7
               }
             }
           ]
@@ -173,8 +184,8 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 18,
-                "max": 24
+                "min": 7,
+                "max": 21
               }
             }
           ]
@@ -187,7 +198,7 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 3,
+                "min": 2,
                 "max": 5
               }
             }
@@ -204,7 +215,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:name_tag",
-          "weight": 1,
+          "weight": 2,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -217,7 +228,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:book",
+          "name": "minecraft:bucket",
           "weight": 1,
           "functions": [
             {
@@ -225,13 +236,6 @@
               "count": {
                 "min": 1,
                 "max": 1
-              }
-            },
-            {
-              "function": "minecraft:enchant_with_levels",
-              "levels": {
-                "min": 1,
-                "max": 4
               }
             }
           ]
@@ -328,28 +332,14 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:pumpkin_seeds",
+          "name": "minecraft:lapis_lazuli",
           "weight": 2,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 1,
-                "max": 4
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:melon_seeds",
-          "weight": 2,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1,
-                "max": 4
+                "min": 5,
+                "max": 7
               }
             }
           ]
@@ -403,25 +393,8 @@
               }
             },
             {
-              "function": "minecraft:enchant_with_levels",
-              "levels": {
-                "min": 0,
-                "max": 2
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:bucket",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
+              "function": "minecraft:enchant_randomly",
+              "options": "#minecraft:on_random_loot"
             }
           ]
         }
